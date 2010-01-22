@@ -1,7 +1,10 @@
 module Twitter
   
   class Base
-    BASE_URL = "http://twitter.com"
+    
+    class << self
+      BASE_URL = "http://twitter.com"
+    end
   end
   
 end

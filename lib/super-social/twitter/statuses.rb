@@ -1,6 +1,6 @@
 module Twitter
   
-  class Statuses << Twitter::Base
+  class Statuses < Twitter::Base
 
     class << self
       
