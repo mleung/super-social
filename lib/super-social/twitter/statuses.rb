@@ -9,14 +9,8 @@ module Twitter
       end
       
       private
-        def append_params(params)
-          return if params.empty?
-          out = "?"
-          params.each_with_index do |item,index|
-            out << "#{item.first}=#{item.last}"
-            out << "&" unless index == params.size
-          end
-          out
+        def append_params(params = {})
+          params.empty? ? "" : "?#{params.collect { |o| o.join("=") }.join("&")}"
         end
         
         def parse_response(json)
