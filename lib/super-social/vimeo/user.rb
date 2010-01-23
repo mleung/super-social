@@ -5,8 +5,8 @@ module Vimeo
     class << self
       include SuperSocial::Web
       
-      def videos(username)
-        parse_response(RestClient.get(("#{BASE_URL}/#{username}/videos.json")))
+      def clips(username)
+        parse_response(RestClient.get(("#{BASE_URL}/#{username}/clips.json")))
       end
       
     end
