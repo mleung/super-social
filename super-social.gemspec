@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = %q{2010-01-22}
   s.email = %q{me@michaelleung.us}
   s.extra_rdoc_files = ["README"]
-  s.files = ["README", "lib/super-social", "lib/super-social/twitter", "lib/super-social/twitter/base.rb", "lib/super-social/twitter/statuses.rb", "lib/super-social.rb"]
+  s.files = ["README", "lib/super-social", "lib/super-social/twitter", "lib/super-social/twitter/base.rb", "lib/super-social/twitter/statuses.rb", "lib/super-social/vimeo", "lib/super-social/vimeo/base.rb", "lib/super-social/vimeo/user.rb", "lib/super-social/web.rb", "lib/super-social.rb"]
   s.homepage = %q{http://yoursite.example.com}
   s.rdoc_options = ["--main", "README"]
   s.require_paths = ["lib"]
